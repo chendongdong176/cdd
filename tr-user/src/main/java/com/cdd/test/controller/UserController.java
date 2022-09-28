@@ -24,4 +24,8 @@ public class UserController {
         return userService.login(user);
     }
 
+    @RequestMapping("/list")
+    public R list(){
+        return userService.aaa();
+    }
 }
