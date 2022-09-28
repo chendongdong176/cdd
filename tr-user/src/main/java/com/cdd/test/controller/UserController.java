@@ -23,5 +23,9 @@ public class UserController {
     public R login(@RequestBody User user){
         return userService.login(user);
     }
-
+    
+    @PostMapping("/list")
+    public R list(){
+        return userService.list();
+    }
 }
