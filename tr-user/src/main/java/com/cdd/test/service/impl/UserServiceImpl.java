@@ -47,4 +47,9 @@ public class UserServiceImpl implements UserService {
         redisTemplate.opsForValue().set("token"+token,user1,30, TimeUnit.MINUTES);
         return R.ok(map);
     }
+
+    @Override
+    public R list() {
+        return null;
+    }
 }

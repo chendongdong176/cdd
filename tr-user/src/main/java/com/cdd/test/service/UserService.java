@@ -9,4 +9,6 @@ import com.cdd.test.utils.R;
  */
 public interface UserService {
     R login(User user);
+
+    R list();
 }

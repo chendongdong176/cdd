@@ -28,4 +28,5 @@ public class UserController {
     public R list(){
         return userService.list();
     }
+
 }
